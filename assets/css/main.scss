@@ -1,15 +1,71 @@
-@import 'bootstrap/bootstrap.css';
-@import 'bootstrap/bootstrap-grid.css';
-@import 'bootstrap/bootstrap-alert.css';
-@import 'bootstrap/bootstrap-btn.css';
-@import 'bootstrap/bootstrap-card.css';
-@import 'bootstrap/bootstrap-dropdown.css';
-@import 'bootstrap/bootstrap-form.css';
-@import 'bootstrap/bootstrap-list.css';
-@import 'bootstrap/bootstrap-modal.css';
-@import 'bootstrap/bootstrap-table.css';
-@import 'bootstrap/bootstrap-utilities.css';
+.lift-display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
 
-.post-thumbnail, .entry-content .wp-audio-shortcode, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), *[class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce), .default-max-width {
-    max-width: 100% !important;
+.lift-display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lift-display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lift-display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lift-display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lift-display-6 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.lift-text-left {
+    text-align: left !important;
+}
+
+.lift-text-right {
+    text-align: right !important;
+}
+
+.lift-text-center {
+    text-align: center !important;
+}
+
+.lift-font-1 {
+    font-size: calc(1.375rem + 1.5vw) !important;
+}
+
+.lift-font-2 {
+    font-size: calc(1.325rem + 0.9vw) !important;
+}
+
+.lift-font-3 {
+    font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.lift-font-4 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+.lift-font-5 {
+    font-size: 1.25rem !important;
+}
+
+.lift-font-6 {
+    font-size: 1rem !important;
 }

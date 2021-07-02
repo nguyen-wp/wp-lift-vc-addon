@@ -85,8 +85,8 @@ if ( !class_exists( 'LIFT_Addons_All_in_One' ) ) {
         }
 
         public function load_frontend_scripts() {
-            wp_register_style( 'lift_animated_css',  plugin_dir_url( __FILE__ ) . 'assets/css/animate.min.css', array() );
-            wp_enqueue_style( 'lift_animated_css' );
+            // wp_register_style( 'lift_animated_css',  plugin_dir_url( __FILE__ ) . 'assets/css/animate.min.css', array() );
+            // wp_enqueue_style( 'lift_animated_css' );
             wp_register_style( 'lift_fancybox_css',  plugin_dir_url( __FILE__ ) . 'assets/css/jquery.fancybox.min.css', array() );
             wp_enqueue_style( 'lift_fancybox_css' );
             wp_register_style( 'lift_core_css',  plugin_dir_url( __FILE__ ) . 'assets/css/dist/main.min.css', array() );

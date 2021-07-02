@@ -99,10 +99,10 @@ if (!class_exists('liftVC_Addons_Heading')) {
 							'save_always' => true,
 							'not_empty' => true,
 							'value' => array(
-								esc_html__( 'Default', 'js_composer' ) => 'text-center',
-								esc_html__( 'left', 'js_composer' ) => 'text-left',
-								esc_html__( 'center', 'js_composer' ) => 'text-center',
-								esc_html__( 'right', 'js_composer' ) => 'text-right',
+								esc_html__( 'Default', 'js_composer' ) => 'lift-text-center',
+								esc_html__( 'left', 'js_composer' ) => 'lift-text-left',
+								esc_html__( 'center', 'js_composer' ) => 'lift-text-center',
+								esc_html__( 'right', 'js_composer' ) => 'lift-text-right',
 							),
 							'edit_field_class' => 'vc_col-sm-3 admin-lift-col',
 							'group' => $this->pNicename,
@@ -566,7 +566,7 @@ if (!class_exists('liftVC_Addons_Heading')) {
 			$content_margin = isset($atts['content_margin']) ? $atts['content_margin'] : null;
 			$title = isset($atts['title']) ? $atts['title'] : null;
 			$tag = isset($atts["tag"]) ? $atts["tag"] : 'h2';
-			$align = isset($atts["align"]) ? ' '.$atts["align"] : ' text-center';
+			$align = isset($atts["align"]) ? ' '.$atts["align"] : ' lift-text-center';
 			$line_align = isset($atts["line_align"]) ? ' liner-align-'.$atts["line_align"] : ' liner-align-center';
 			$delay = isset($atts["delay"]) ? ' data-delay="'.$atts["delay"].'"' : null;
 			$line_height = isset($atts["line_height"]) ? $atts["line_height"] : '1px';
