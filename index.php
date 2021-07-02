@@ -15,7 +15,7 @@
  * Plugin Name:       @LIFT Creations - LIFT Addons for Visual Composer
  * Plugin URI:        https://liftcreations.com
  * Description:       A collection of LIFT's addons for use in WPBakery Page Builder. WPBakery Page Builder must be installed and activated.
- * Version:           5.2.0
+ * Version:           5.2.1
  * Author:            Nguyen Pham
  * Author URI:        https://baonguyenyam.github.io/cv
  * Plugin URI:        https://baonguyenyam.github.io/cv
