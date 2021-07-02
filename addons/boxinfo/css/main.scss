@@ -1,5 +1,12 @@
 .lift-elements {
     &.lift-boxinfo{
+        .lift-ctn{
+            .lift-button {
+                > a {
+                    display: inline-block;
+                }
+            }
+        }
         &.lift-hold-click {
             position: relative;
             .hold-click {
@@ -66,9 +73,6 @@
                         overflow: hidden;
                         transition: all ease-in-out .5s;
                         opacity: 0;
-                        > a {
-                            display: inline-block;
-                        }
                     }
                 }
                 figure {
