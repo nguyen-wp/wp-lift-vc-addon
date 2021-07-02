@@ -66,6 +66,9 @@
                         overflow: hidden;
                         transition: all ease-in-out .5s;
                         opacity: 0;
+                        > a {
+                            display: inline-block;
+                        }
                     }
                 }
                 figure {

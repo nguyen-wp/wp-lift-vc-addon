@@ -64,6 +64,10 @@
     transition: all ease-in-out 0.5s;
     opacity: 0;
   }
+  .lift-elements.lift-boxinfo.lift-theme-style-4 article .lift-content > a,
+.lift-elements.lift-boxinfo.lift-theme-style-4 article .lift-button > a {
+    display: inline-block;
+  }
   .lift-elements.lift-boxinfo.lift-theme-style-4 figure img {
     width: 100%;
   }
