@@ -57,7 +57,7 @@ if (!class_exists('liftVC_Addons_ImageGroup')) {
 				'name'        => esc_html__($this->pNicename, 'js_composer'),
 				'description' => esc_html__('Add new ' . $this->pNicename, 'js_composer'),
 				'base'        => 'lift_vc_' . $this->name,
-				'is_container' => true,
+				// 'is_container' => true,
 				'category' => __('LIFT Addons', 'js_composer'),
 				'icon' => 'icon-lift-adminicon icon-lift-' . $this->name,
 				'show_settings_on_create' => true,
